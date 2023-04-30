@@ -45,5 +45,5 @@ class Calaculator(App):
 
 
 if __name__ == '__main__':
-    MainApp().run()
+    Calculator().run()
     
