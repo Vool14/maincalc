@@ -4,7 +4,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.textinput import TextInput
 
 
-class MainApp(App):
+class Calaculator(App):
     def build(self):
         main_layout = BoxLayout(orientation="vertical", padding=10, spacing=10)
         self.solution = TextInput(multiline=True, readonly=False, halign="right", font_size=50)
